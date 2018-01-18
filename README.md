@@ -1,5 +1,5 @@
 # minesweeper
-Exactly as the title says. It was the end of summer and I felt hopeless not having built anything real up to that point when I noticed that minesweeper was no longer built into Windows. I figured "I could build that" and I did. Because it uses the SFML library, it's "supposed" to work on all platforms so long as you have that library installed. I've tested it on Windows and Linux but I don't know how else to tell you to build it besides running the Makefile and hoping you have the correct libraries installed. 
+Exactly as the title says. It was the end of summer and I felt hopeless not having built anything real up to that point when I noticed that minesweeper was no longer built into Windows. I figured "I could build that" and I did. Because it uses the SFML library, it's "supposed" to work on all platforms so long as you have that library installed. I've tested it on Windows and Linux but getting it to work on Windows requires a tutorial to install the library. For Ubuntu Linux just type `sudo apt-get install libsfml-dev` and the library should download just fine. Then just run `make` and the executable for the game should work. 
 
 <img src="https://i.imgur.com/zkmyLwM.png">
 
